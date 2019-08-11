@@ -11,5 +11,15 @@ object InputDemo {
     // stdin trait 特质 等价于Java的interface+abstract
     val name = StdIn.readLine()
     println(s"input name=$name")
+
+    val t = new Cat222()
+    println(t.age)
+    print(t.color)
   }
+}
+
+class Cat222{
+  var name:String = ""
+  var age:Int = _
+  var color:String = _
 }
